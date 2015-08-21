@@ -639,6 +639,7 @@ section h3.section-subheading {
 
 section#team {
     background-image: url(../img/teambg.png);
+    background-repeat: no-repeat;
     background-position: center;
     background-size:contain
 }
