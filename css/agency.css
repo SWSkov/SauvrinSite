@@ -42,7 +42,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #ACB1D9;
+    color: #8178a1;
 }
 
 h1,
@@ -84,7 +84,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
     border-color: #ACB1D9;
     color: #fff;
-    background-color: #ACB1D9;
+    background-color: #8178a1;
 }
 
 .btn-primary:active,
