@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -80,7 +81,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in"><em>We are</em> Sauvrin.</div>
                 <div class="intro-heading">We want to build <br>your next project.</br> </div>
-                <a href="#services" class="page-scroll btn btn-xl">Find Out More</a>
+                <a href="#services" class="page-scroll btn btn-xl wow pulse">Find Out More</a>
             </div>
         </div>
     </header>
@@ -97,24 +98,24 @@
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-5x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-circle fa-stack-2x wow bounceIn text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x wow bounceIn fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Web Development</h4>
                     <p class="text-muted">Developing a web presence with us can scale from a one page advertisement all the way up to a full blown web application.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-5x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-circle fa-stack-2x wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <i class="fa fa-mobile fa-stack-1x wow bounceIn fa-inverse" data-wow-delay=".1s"></i>
                     </span>
                     <h4 class="service-heading">Application Design</h4>
                     <p class="text-muted">We are able to complete all user experiences for almost any type of mobile platform.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-5x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-server fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-circle fa-stack-2x wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <i class="fa fa-server fa-stack-1x wow bounceIn fa-inverse" data-wow-delay=".2s"></i>
                     </span>
                     <h4 class="service-heading">On-Premise Integration</h4>
                     <p class="text-muted">If you currently have a web site or application that you would like updated or moved to a different system we can do that for you.</p>
@@ -140,7 +141,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/tiftown.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/tiftown.png" class="img-responsive wow slideInLeft" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Tiftown</h4>
@@ -154,7 +155,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/osatyam.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/osatyam.png" class="img-responsive wow slideInDown" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Osatyam</h4>
@@ -169,7 +170,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/mondesir.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/mondesir.png" class="img-responsive wow slideInRight" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Mondesir</h4>
@@ -292,7 +293,7 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
+                                <button type="submit" class="btn btn-xl wow pulse">Send Message</button>
                             </div>
                         </div>
                     </form>
@@ -435,6 +436,8 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
