@@ -127,6 +127,7 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background-color: #ACB1D9;
+    cursor: pointer;
 }
 
 .btn-xl:hover,
@@ -883,4 +884,6 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #ACB1D9;
 }
+
+
 
